@@ -1,0 +1,10 @@
+print(word):
+    pop word;
+    msg word;
+    ret print(word), 0;
+    fin
+err1():
+    mov msg, "エラーです"
+    msg msg;
+    ret err1(), 0;
+    fin
